@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{
+	background: linear-gradient(to right, orange 50%, lime 50%, lime 100%);
+}
+
+.left{
+	background: url("Images/f4dab4c6-62a2-4c4f-acd0-5886ccca6f92.jpg");
+	background-repeat: no-repeat;
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	opacity: 0;
+}
+
+.left:hover{
+	transition-duration: 15s;
+	opacity:.3;
+}
+
+.buttonA{
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	opacity: 0;
+}
+
+.right{
+	background: url("Images/green-meadow-1400501320tGe.jpg");
+	background-repeat: no-repeat;
+	width:50%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+}
+
+.right:hover{
+	transition-duration: 15s;
+	opacity:.7;
+}
+
+.buttonB{
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+}
