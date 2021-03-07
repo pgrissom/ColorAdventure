@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{
+	background: linear-gradient(to right, turquoise 50%, maroon 50%, maroon 100%);
+}
+
+.left{
+	background: url("Images/Great-White-Shark-Smile.jpg");
+	background-repeat: no-repeat;
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	opacity: 0;
+}
+
+.left:hover{
+	transition-duration: 15s;
+	opacity:.4;
+}
+
+.buttonAB{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;  
+	opacity: 0;
+}
+
+.right{
+	background: url("Images/red-sunset-3.jpg");
+	background-repeat: no-repeat;
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+}
+
+.right:hover{
+	transition-duration: 15s;
+	opacity:.4;
+}
+
+.buttonBA{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+}
