@@ -4,6 +4,10 @@ body{
 	background: linear-gradient(to right, #00ffe9 50%, #ed2000 50%, #ed2000 100%);
 }
 
+.title{
+	font-family: Cambria , serif;
+}
+
 img{
 	margin: 0;
 	width:25%;
@@ -31,7 +35,7 @@ img{
 }
 
 .buttonA{
-	width: 50%;
+	width: 100%;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -63,5 +67,3 @@ img{
 	height: 100%;
 	opacity: 0;
 }
-
-
