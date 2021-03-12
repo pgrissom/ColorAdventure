@@ -1,23 +1,17 @@
 @charset "utf-8";
 
 body{
-	background: linear-gradient(to right, turquoise 50%, orange 50%, orange 100%);
+	background: linear-gradient(to right, #f2ffa6 50%, #3d2957 50%, #3d2957 100%);
 }
 
 .left{
-	background: url("Images/Great-White-Shark-Smile.jpg");
 	background-repeat: no-repeat;
-	width: 71%;
+	width: 50%;
 	position: absolute;
 	top: 0px;
-	left: -400px;
+	left: 0px;
 	height: 100%;
 	opacity: 0;
-}
-
-.left:hover{
-	transition-duration: 15s;
-	opacity:.4;
 }
 
 .buttonAB{
@@ -30,7 +24,6 @@ body{
 }
 
 .right{
-	background: url("Images/red-sunset-3.jpg");
 	background-repeat: no-repeat;
 	width: 50%;
 	position: absolute;
@@ -38,11 +31,6 @@ body{
 	right: 0px;
 	height: 100%;
 	opacity: 0;
-}
-
-.right:hover{
-	transition-duration: 15s;
-	opacity:.4;
 }
 
 .buttonBA{
